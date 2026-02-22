@@ -1,0 +1,789 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../programming-assignments/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>3D Rendering Contest - CS479 Machine Learning for 3D Data (KAIST, Spring 2026)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-0DGDW2727H"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-0DGDW2727H",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-0DGDW2727H",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cs479-machine-learning-for-3d-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" class="md-header__button md-logo" aria-label="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CS479 Machine Learning for 3D Data (KAIST, Spring 2026)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3D Rendering Contest
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../programming-assignments/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programming Assignments
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  3D Rendering Contest
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" class="md-nav__button md-logo" aria-label="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+
+    </a>
+    CS479 Machine Learning for 3D Data (KAIST, Spring 2026)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../programming-assignments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programming Assignments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Rendering Contest
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Rendering Contest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3d-rendering-contest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3D Rendering Contest
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3D Rendering Contest">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-to-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Do
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-to-submit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Submit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-sessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Presentation Sessions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3d-rendering-contest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3D Rendering Contest
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3D Rendering Contest">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-to-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Do
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-to-submit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Submit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-sessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Presentation Sessions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="cs479-machine-learning-for-3d-data">CS479: Machine Learning for 3D Data</h1>
+<h3><b>
+<a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2026
+</b></h3>
+
+<h2 id="3d-rendering-contest">3D Rendering Contest</h2>
+<p><ins><strong>Submission Due</strong></ins>: <mark>June 6 (Saturday), 23:59 KST</mark><br />
+<ins><strong>Where to submit</strong></ins>: <mark>KLMS</mark><br />
+<ins><strong>Presentation Session 1</strong></ins>: June 8 (Monday), 12:50 p.m. - 2:20 p.m. KST<br />
+<ins><strong>Presentation Session 2</strong></ins>: June 10 (Wednesday), 12:50 p.m. - 2:20 p.m. KST  </p>
+<h3 id="what-to-do">What to Do</h3>
+<p>In this contest, you are invited to reconstruct, generate, or design 3D object(s) or a scene and showcase it in its most impressive form of rendering.</p>
+<p>Your first task is to create captivating 3D object(s) or a scene by either:</p>
+<ol>
+<li>Reconstructing 3D object(s) or a scene from real-world images or videos,</li>
+<li>Handcrafting a 3D model using any tools you prefer, or</li>
+<li>Employing generative models to create your 3D object(s) or scene.</li>
+</ol>
+<p>Then, you will render the 3D object(s)/scene into its best form as a video.</p>
+<p><strong><mark>Important Notes</mark></strong></p>
+<p><ins>DO NOT USE the following (violations will result in a zero score):</ins></p>
+<ul>
+<li><strong>Any commercial software</strong></li>
+<li><strong>Any 3D assets</strong></li>
+<li><strong>Any paid neural network models</strong></li>
+<li><strong>Closed-source software (e.g., PolyCam, Luma AI)</strong></li>
+<li><strong>Blender for rendering (You are allowed to use Blender for modeling/texturing)</strong></li>
+<li><strong>Any 3D scanning devices</strong></li>
+</ul>
+<p><strong>You are allowed to use the following (provided they are clearly mentioned in your write-up):</strong></p>
+<ul>
+<li>Open-source code (e.g., NerfStudio, threestudio)</li>
+<li>Free pretrained neural network models</li>
+<li>Any non-3D-geometry assets (e.g., images, textures, materials)</li>
+<li>RGB cameras</li>
+</ul>
+<p><ins>Failure to cite existing code, models, and assets used in the project in the write-up will result in a zero score.</ins></p>
+<h3 id="what-to-submit">What to Submit</h3>
+<ol>
+<li>
+<p>A representative image</p>
+<ul>
+<li>Format: png</li>
+<li>Resolution: Up to 1920x1080</li>
+<li>File Size: Not exceeding 5MB</li>
+</ul>
+</li>
+<li>
+<p>Video: A video capture of the 3D rendering.</p>
+<ul>
+<li>Format: mp4</li>
+<li>Resolution: Up to 1920x1080</li>
+<li>Duration: Maximum of 10 seconds</li>
+<li>File Size: Not exceeding 50MB</li>
+</ul>
+</li>
+<li>
+<p>3D Content</p>
+<ul>
+<li>Only one 3D content piece is allowed, but it may include multiple objects within a scene.</li>
+<li>File Size: Maximum of 100MB</li>
+<li>Format:<ul>
+<li>A webpage with supplementary files (e.g., <em>.gldf, </em>.glb., *.js, etc.), or</li>
+<li>A file compatible with the following platforms:<ul>
+<li>MeshLab (<a href="https://www.meshlab.net/" target="_blank">https://www.meshlab.net/</a>)</li>
+<li>Nerfstudio (<a href="https://docs.nerf.studio/" target="_blank">https://docs.nerf.studio/</a>)</li>
+<li>Threestudio (<a href="https://github.com/threestudio-project/threestudio" target="_blank">https://github.com/threestudio-project/threestudio</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ins>A file that cannot be opened/loaded will be considered as not submitted, resulting in a zero score.</ins></li>
+</ul>
+</li>
+<li>
+<p>Source code and Data:</p>
+<ul>
+<li>Ensure reproducibility of the 3D output with your provided code and data.</li>
+<li><ins>Code/data that cannot reproduce the rendering will be considered as not submitted, resulting in a zero score</ins></li>
+</ul>
+</li>
+<li>
+<p>Write-up:</p>
+<ul>
+<li>A write-up including<ul>
+<li>Project title</li>
+<li>Teammates' names</li>
+<li>Teammates' student IDs</li>
+<li>Brief description of the 3D content and rendering</li>
+<li>Technical aspects</li>
+<li>Reproduction steps using your code and data</li>
+</ul>
+</li>
+<li>Length: Up to 4 pages in A4 size, excluding references.</li>
+<li>No template provided.</li>
+<li><ins>Properly cite all the code and resources you have used. Missing references will be considered as misconduct, resulting in a zero score.</ins></li>
+</ul>
+</li>
+</ol>
+<h3 id="evaluation">Evaluation</h3>
+<p>Your results will be evaluated based on Technology Score and Creativity Score by the instructor, TAs, and your peer classmates.</p>
+<ul>
+<li><strong>Technology Score</strong> [1–5 range]: This indicates the technical novelty and difficulty in creating and rendering the object/scene.</li>
+<li><strong>Creativity Score</strong> [1–5 range]: This indicates the originality and artistic value of the rendering outputs.</li>
+</ul>
+<p>For both, higher is better, and only integer scores are permitted.</p>
+<p>Each individual will assign a Technology Score and Creativity Score to the results of all classmates. The scores given by one person to all results will be normalized. Then, the average of these normalized scores for each criterion will determine your final score.</p>
+<h3 id="presentation-sessions">Presentation Sessions</h3>
+<ul>
+<li>
+<p><strong>All sessions are mandatory.</strong> Your attendance will be checked at the beginning, middle, and end of each session.</p>
+</li>
+<li>
+<p>Your <strong>camera</strong> and <strong>mic</strong> must be turned on <strong>all the time</strong>.</p>
+</li>
+<li>
+<p><strong>Find your poster BEFORE the sessions</strong>, and also check whether your camera and mic work, and you can share your screen.</p>
+</li>
+<li>
+<p>Check your presentation date below. You will play a role of a <strong>presenter</strong> in one session and a <strong>questioner</strong> in the other session.</p>
+</li>
+<li>
+<p>Each session will begin with a <strong>1-minute pitch</strong> from the presenters. When it's your turn, please follow these steps:</p>
+<ul>
+<li>Introduce yourself (just your name).</li>
+<li>Share your screen and play the video.</li>
+<li>Provide a 1-minute description of your work.</li>
+</ul>
+</li>
+<li>
+<p>In the session you present, you must be on <strong>standby</strong> in front of your poster during the entire session and wait for the questioners.</p>
+</li>
+<li>
+<p>The instructor will stop by each poster with the schedule below (subject to change).</p>
+</li>
+<li>
+<p>All discussions during the poster sessions must be done in <strong>English</strong>.</p>
+</li>
+</ul>
+<!--
+### Presentation Schedule
+| Instructor<br>Schedule | Session 1 | Session 2 |
+| :----: | :----: | :----: |
+| 10:20 am | **Hyewon Shin** | **Eunki Joung** |
+| 10:27 am | **Daniel Andreas Korth** | **Mitchel Scholtens** |
+| 10:34 am |  **Jaduk Suh** | **Taeyeon Kim** |
+| 10:41 am | **Jeonguk Lee** | **Haun Kim** |
+| 10:48 am | **Taeyun Woo** | **Jihyun Lee** |
+| 10:55 am | **Prin Phunyaphibarn** | **Suin Lee** |
+| 11:02 am | **Anney Vo** | **Woohyun Jeong** |
+| 11:09 am | **Beomyoung kim** | **Jaeseong Lee** |
+| 11:16 am | **Honggi Lee** | **Kyeongmin Yeo** |
+| 11:23 am | **Raehyun Kang** | **Youngdo Lee** |
+| 11:30 am | **Taehoon Yoon** | **Yeseung Kim** |
+| 11:37 am | **August Lykke Thomsen** | **Jaewoo Kim** |
+| 11:44 am | **Inje Hwang** |  |
+-->
+
+<h3 id="grading">Grading</h3>
+<p><ins><strong>There is no late day. Submit on time.</strong></ins></p>
+<p><strong>Late submission</strong>: <mark>Zero score</mark>.<br />
+<strong>Missing any of video, 3D content, code/data, and write-up</strong>: <mark>Zero score</mark>.<br />
+<strong>Wrong format</strong>: <mark>10% penalty for each</mark>.  </p>
+<p><strong>Absence (at any time) at the sessions</strong>: <mark>20% penalty for each session</mark>.<br />
+<strong>Turning off camera of mic</strong>: <mark>20% penalty for each session</mark>.<br />
+<strong>Not staying at the poster during the presentation</strong>: <mark>20% penalty</mark>.<br />
+<br></p>
+<p><a href="#">Back to top</a></p>
+<p><br /></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Minhyuk Sung
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

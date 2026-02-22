@@ -1,0 +1,924 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="programming-assignments/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>CS479 Machine Learning for 3D Data (KAIST, Spring 2026)</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-0DGDW2727H"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-0DGDW2727H",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-0DGDW2727H",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cs479-machine-learning-for-3d-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" class="md-header__button md-logo" aria-label="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CS479 Machine Learning for 3D Data (KAIST, Spring 2026)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="programming-assignments/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programming Assignments
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="3d-rendering-contest/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  3D Rendering Contest
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" class="md-nav__button md-logo" aria-label="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+
+    </a>
+    CS479 Machine Learning for 3D Data (KAIST, Spring 2026)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#time-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Time &amp; Location
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prerequisites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommended" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-staff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Course Staff
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#past-years" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Past Years
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-coding-assistant-tool-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Coding Assistant Tool Policy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-dates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Dates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schedule
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="programming-assignments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programming Assignments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="3d-rendering-contest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Rendering Contest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#time-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Time &amp; Location
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prerequisites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommended" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-staff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Course Staff
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#past-years" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Past Years
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-coding-assistant-tool-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Coding Assistant Tool Policy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-dates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Dates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schedule
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="cs479-machine-learning-for-3d-data">CS479: Machine Learning for 3D Data</h1>
+<h3><b>
+<a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2026
+</b></h3>
+<p><br /></p>
+<p><img alt="Teaser" src="assets/teaser.png" width="97.5%" /><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2 id="time-location">Time &amp; Location</h2>
+<p><strong>Time</strong>: Mon/Wed 1:00 p.m. - 2:15 p.m. (KST) <br />
+<strong>Location</strong>: E3-5 Room 210</p>
+<h2 id="description">Description</h2>
+<p>3D Data are widely used in many applications in computer vision, computer graphics, and robotic, such as autonomous driving, AI-assisted 3D object/scene design, augmented reality, and physical robot interaction. Along with the recent increasing demands on processing and analyzing such 3D data, there has been tremendous progress in developing novel technologies, especially based on deep learning. In this course, we will cover the recent advances in machine learning techniques for 3D data and also discuss the remaining challenges. </p>
+<h2 id="prerequisites">Prerequisites</h2>
+<h3 id="required">Required</h3>
+<ul>
+<li>CS371: Introduction to Deep Learning</li>
+</ul>
+<h3 id="recommended">Recommended</h3>
+<ul>
+<li>CS380: Introduction to Computer Graphics</li>
+<li>CS484: Introduction to Computer Vision</li>
+</ul>
+<h2 id="course-staff">Course Staff</h2>
+<p><strong>Instructor</strong>: <a href="https://mhsung.github.io/" target="_blank">Minhyuk Sung</a> (<a href="mailto:mhsung@kaist.ac.kr">mhsung@kaist.ac.kr</a>)</p>
+<p><strong>Course Assistants:</strong></p>
+<ul>
+<li>Mingue Park (<a href="mailto:kicikicik@kaist.ac.kr">kicikicik@kaist.ac.kr</a>)</li>
+<li>Kyeongmin Yeo (<a href="mailto:aaaaa@kaist.ac.kr">aaaaa@kaist.ac.kr</a>)</li>
+<li>Daehyeon Choi (<a href="mailto:daehyeonchoi@kaist.ac.kr">daehyeonchoi@kaist.ac.kr</a>)</li>
+<li>Jisung Hwang (<a href="mailto:4011hjs@kaist.ac.kr">4011hjs@kaist.ac.kr</a>)</li>
+</ul>
+<h2 id="past-years">Past Years</h2>
+<ul>
+<li><a href="https://mhsung.github.io/kaist-cs479-spring-2025/" target="_blank">CS479: Machine Learning for 3D Data (Spring 2025)</a></li>
+<li><a href="https://mhsung.github.io/kaist-cs479-fall-2023/" target="_blank">CS479: Machine Learning for 3D Data (Fall 2023)</a></li>
+<li><a href="https://mhsung.github.io/kaist-cs492a-spring-2022/" target="_blank">CS492(A): Machine Learning for 3D Data (Spring 2022)</a></li>
+<li><a href="https://mhsung.github.io/courses/kaist-cs492h-spring-2021/" target="_blank">CS492(H): Machine Learning for 3D Data (Spring 2021)</a></li>
+</ul>
+<h2 id="grading">Grading</h2>
+<ul>
+<li><a href="./programming-assignments">Programming Assignments</a>: 20%</li>
+<li><a href="./">3D Segmentation Competition</a>: 20%</li>
+<li><a href="./3d-rendering-contest">3D Rendering Contest</a>: 20%</li>
+<li>Exams: 30%</li>
+<li>In-Class Participation: 10%</li>
+</ul>
+<h2 id="ai-coding-assistant-tool-policy">AI Coding Assistant Tool Policy</h2>
+<p><strong>You are allowed (and even encouraged) to utilize AI coding assistant tools</strong>, such as ChatGPT, Copilot, Codex, and Code Intelligence, for your programming assignments and projects. Utilizing AI coding assistant tools will not be deemed as plagiarism. However, it is still strictly prohibited to directly copy code from the Internet or from someone else. Doing so will lead to a score of zero and a report to the university.</p>
+<h2 id="important-dates">Important Dates</h2>
+<p>ALL ASSIGNMENTS ARE DUE 23:59 KST.
+(Subject to Change)</p>
+<ul>
+<li>Assignment 1 Submission Due: <mark>March 31 (Tuesday), 23:59 KST</mark>   </li>
+<li>Team Sign-Up Due: <mark>April 1 (Wednesday), 23:59 KST</mark> </li>
+<li>Assignment 2 Submission Due: <mark>April 28 (Tuesday), 23:59 KST</mark></li>
+<li>Assignment 3 Submission Due: <mark>May 12 (Tuesday), 23:59 KST</mark></li>
+<li>Assignment 4 Submission Due: <mark>May 26 (Tuesday), 23:59 KST</mark></li>
+<li>3D Segmentation Competition Submission Due: <mark>May 9 (Saturday), 23:59 KST</mark>  </li>
+<li>3D Rendering Contest Submission Due: <mark>June 6 (Saturday), 23:59 KST</mark>  </li>
+</ul>
+<h2 id="schedule">Schedule</h2>
+<p>(Subject to Change) </p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Week</th>
+<th style="text-align: center;">Mon</th>
+<th style="text-align: center;">Topic</th>
+<th style="text-align: center;">Wed</th>
+<th style="text-align: center;">Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Mar 2</td>
+<td style="text-align: center;">No Class (Substitute Holiday for<br>the Independence Movement Day)</td>
+<td style="text-align: center;">Mar 4</td>
+<td style="text-align: center;"><strong>Course Introduction</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Mar 9</td>
+<td style="text-align: center;"><strong>3D Representations</strong></td>
+<td style="text-align: center;">Mar 11</td>
+<td style="text-align: center;"><strong>Point Clouds 1</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Mar 16</td>
+<td style="text-align: center;"><strong>Point Clouds 2</strong></td>
+<td style="text-align: center;">Mar 18</td>
+<td style="text-align: center;"><mark>Assignment 1 Session:</mark><br><a href="https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-PointNet" target="_blank"><strong>PointNet</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Mar 23</td>
+<td style="text-align: center;"><strong>Implicit Neural Representations</strong></td>
+<td style="text-align: center;">Mar 25</td>
+<td style="text-align: center;"><strong>Image-to-3D 1:<br>Camera Model</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Mar 30</td>
+<td style="text-align: center;"><strong>Image-to-3D 2:<br>Epipolar Geometry</strong></td>
+<td style="text-align: center;">Apr 1</td>
+<td style="text-align: center;"><strong>Neural Radiance Fields (NeRF)</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Apr 6</td>
+<td style="text-align: center;"><strong>Hybrid Representations</strong></td>
+<td style="text-align: center;">Apr 8</td>
+<td style="text-align: center;"><mark>Assignment 2 Session:</mark><br><a href="https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-NeRF" target="_blank"><strong>NeRF</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">Apr 13</td>
+<td style="text-align: center;"><strong>Gaussian Splatting 1</strong></td>
+<td style="text-align: center;">Apr 15</td>
+<td style="text-align: center;"><mark>Midterm Summary</mark></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Apr 20</td>
+<td style="text-align: center;"><mark>Midterm Exam</mark></td>
+<td style="text-align: center;">Apr 22</td>
+<td style="text-align: center;">No Class (Midterm Week)</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">Apr 27</td>
+<td style="text-align: center;"><strong>Gaussian Splatting 2</strong></td>
+<td style="text-align: center;">Apr 29</td>
+<td style="text-align: center;"><mark>Assignment 3 Session:</mark><br><a href="https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-3DGS" target="_blank"><strong>Gaussian Splatting</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">May 4</td>
+<td style="text-align: center;"><strong>Representation Conversion 1</strong></td>
+<td style="text-align: center;">May 6</td>
+<td style="text-align: center;">No Class (Break)</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">May 11</td>
+<td style="text-align: center;"><strong>Representation Conversion 2</strong></td>
+<td style="text-align: center;">May 13</td>
+<td style="text-align: center;"><mark>Assignment 4 Session:</mark><br><a href="https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-MLS-MS" target="_blank"><strong>Marching Squares</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">May 18</td>
+<td style="text-align: center;"><strong>Mesh Deformation</strong></td>
+<td style="text-align: center;">May 20</td>
+<td style="text-align: center;"><mark>Guest Lecture 1</mark></td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">May 26</td>
+<td style="text-align: center;">No Class (Substitute Holiday for<br>Buddha's Birthday)</td>
+<td style="text-align: center;">May 27</td>
+<td style="text-align: center;"><mark>Guest Lecture 2</mark></td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">Jun 1</td>
+<td style="text-align: center;"><strong>3D Geneneration</strong></td>
+<td style="text-align: center;">Jun 3</td>
+<td style="text-align: center;">No Class (Local Elections)</td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">Jun 8</td>
+<td style="text-align: center;"><mark>Project Presentations 1</mark></td>
+<td style="text-align: center;">Jun 10</td>
+<td style="text-align: center;"><mark>Project Presentations 2</mark></td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">Jun 15</td>
+<td style="text-align: center;"><mark>Final Exam</mark></td>
+<td style="text-align: center;">Jun 17</td>
+<td style="text-align: center;">No Class (Final Week)</td>
+</tr>
+</tbody>
+</table>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Teaser image credits (from left to right):<br>Mildenhall et al., NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, ECCV 2020.<br>https://huggingface.co/blog/gaussian-splatting<br>Hwang and Sung, Occupancy-Based Dual Contouring, SIGGRAPH Asia 2024.<br>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Minhyuk Sung
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
