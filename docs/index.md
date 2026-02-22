@@ -67,10 +67,11 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 (Subject to Change)
 
 - Assignment 1 Submission Due: ==March 31 (Tuesday), 23:59 KST==   
-- 3D Rendering Contest Sign-Up Due: ~~April 6 (Sunday), 23:59 KST~~ ==April 8 (Tuesday), 23:59 KST== 
+- Team Sign-Up Due: ==April 1 (Wednesday), 23:59 KST== 
 - Assignment 2 Submission Due: ==April 28 (Tuesday), 23:59 KST==
 - Assignment 3 Submission Due: ==May 12 (Tuesday), 23:59 KST==
 - Assignment 4 Submission Due: ==May 26 (Tuesday), 23:59 KST==
+- 3D Segmentation Competition Submission Due: ==May 9 (Saturday), 23:59 KST==  
 - 3D Rendering Contest Submission Due: ==June 6 (Saturday), 23:59 KST==  
 
 

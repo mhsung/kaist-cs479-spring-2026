@@ -6,17 +6,16 @@ hide:
 # CS479: Machine Learning for 3D Data
 
 <h3><b>
-<a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2025
+<a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2026
 </b></h3>
 
 
 ## 3D Rendering Contest
 
-^^**Sign-Up Due**^^: ==April 6 (Sunday), 23:59 KST==  
-^^**Submission Due**^^: ==May 31 (Saturday), 23:59 KST==  
+^^**Submission Due**^^: ==June 6 (Saturday), 23:59 KST==  
 ^^**Where to submit**^^: ==KLMS==  
-^^**Presentation Session 1**^^: June 2 (Monday), 12:50 p.m. - 2:20 p.m. KST  
-^^**Presentation Session 2**^^: June 4 (Wednesday), 12:50 p.m. - 2:20 p.m. KST  
+^^**Presentation Session 1**^^: June 8 (Monday), 12:50 p.m. - 2:20 p.m. KST  
+^^**Presentation Session 2**^^: June 10 (Wednesday), 12:50 p.m. - 2:20 p.m. KST  
 
 
 ### What to Do
