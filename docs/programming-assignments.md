@@ -12,10 +12,10 @@ hide:
 
 ## Programming Assignments
 
-^^Assignment 1 Due^^: ==April 1 (Tuesday), 23:59 KST==    
-^^Assignment 2 Due^^: ==April 27 (Sunday), 23:59 KST==    
-^^Assignment 3 Due^^: ==May 20 (Tuesday), 23:59 KST==    
-^^Assignment 4 Due^^: ==June 10 (Tuesday), 23:59 KST==  
+^^Assignment 1 Due^^: ==March 31 (Tuesday), 23:59 KST==    
+^^Assignment 2 Due^^: ==April 28 (Tuesday), 23:59 KST==    
+^^Assignment 3 Due^^: ==May 12 (Tuesday), 23:59 KST==    
+^^Assignment 4 Due^^: ==May 26 (Tuesday), 23:59 KST==  
 ^^Where to submit^^: ==KLMS==
 
 

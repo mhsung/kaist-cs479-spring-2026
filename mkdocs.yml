@@ -38,3 +38,8 @@ extra:
     provider: google
     property: G-0DGDW2727H
   links:
+    asgmt1: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-PointNet
+    asgmt2: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-NeRF
+    asgmt3: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-3DGS
+    asgmt4: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-MLS-MS
+    demo: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-NeRF-Applications

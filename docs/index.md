@@ -26,10 +26,10 @@ hide:
 
 ## Prerequisites
 ### Required
-- [CS371] Introduction to Deep Learning
+- CS371: Introduction to Deep Learning
 ### Recommended
-- [CS380] Introduction to Computer Graphics
-- [CS484] Introduction to Computer Vision
+- CS380: Introduction to Computer Graphics
+- CS484: Introduction to Computer Vision
 
 
 ## Course Staff
@@ -66,12 +66,12 @@ hide:
 ALL ASSIGNMENTS ARE DUE 23:59 KST.
 (Subject to Change)
 
-- Assignment 1 Submission Due: ~~April 1 (Tuesday), 23:59 KST~~ ~~April 8 (Tuesday), 23:59 KST~~ ==April 9 (Wednesday), 23:59 KST==   
+- Assignment 1 Submission Due: ==March 31 (Tuesday), 23:59 KST==   
 - 3D Rendering Contest Sign-Up Due: ~~April 6 (Sunday), 23:59 KST~~ ==April 8 (Tuesday), 23:59 KST== 
-- Assignment 2 Submission Due: ==April 27 (Sunday), 23:59 KST==
-- Assignment 3 Submission Due: ==May 20 (Tuesday), 23:59 KST==
-- Assignment 4 Submission Due: ==June 10 (Tuesday), 23:59 KST==
-- 3D Rendering Contest Submission Due: ==May 31 (Saturday), 23:59 KST==  
+- Assignment 2 Submission Due: ==April 28 (Tuesday), 23:59 KST==
+- Assignment 3 Submission Due: ==May 12 (Tuesday), 23:59 KST==
+- Assignment 4 Submission Due: ==May 26 (Tuesday), 23:59 KST==
+- 3D Rendering Contest Submission Due: ==June 6 (Saturday), 23:59 KST==  
 
 
 ## Schedule
@@ -79,20 +79,20 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 
 | Week | Mon | Topic | Wed | Topic |
 | :----: | :----: | :----: | :----: | :----: |
-| 1  | Feb 24 | **Course Introduction**<br>[**Slides**]({{links.lec01}}){:target="_blank"} | Feb 26 | **3D Representations**<br>[**Slides**]({{links.lec02}}){:target="_blank"}<br>[**Recording**]({{links.rec02}}){:target="_blank"} | 
-| 2  | Mar 3  | No Class (Substitute Holiday for<br>the Independence Movement Day) | Mar 5 | **Point Clouds 1**<br>[**Slides**]({{links.lec03}}){:target="_blank"}<br>[**Recording**]({{links.rec03}}){:target="_blank"} | 
-| 3  | Mar 10 | **Point Clouds 2**<br>[**Slides**]({{links.lec04}}){:target="_blank"}<br>[**Recording**]({{links.rec04}}){:target="_blank"} | Mar 12 | ==Assignment 1 Session:==<br>[**PointNet**]({{links.asgmt1}}){:target="_blank"}<br>[**Slides**]({{links.asgmt1_slides}}){:target="_blank"} | 
-| 4  | Mar 17 | **Implicit Neural Representations**<br>[**Slides**]({{links.lec05}}){:target="_blank"}<br>[**Recording**]({{links.rec05}}){:target="_blank"} | Mar 19 | **Image-to-3D 1:<br>Camera Model**<br>[**Slides**]({{links.lec06}}){:target="_blank"}<br>[**Recording**]({{links.rec06}}){:target="_blank"} | 
-| 5  | Mar 24 | **Image-to-3D 2<br>Epipolar Geometry**<br>[**Slides**]({{links.lec07}}){:target="_blank"}<br>[**Recording**]({{links.rec07}}){:target="_blank"} | Mar 26 | **Neural Radiance Fields (NeRF)**<br>[**Slides**]({{links.lec08}}){:target="_blank"}<br>[**Recording**]({{links.rec08}}){:target="_blank"} | 
-| 6  | Mar 31 | **Hybrid Representations**<br>[**Slides**]({{links.lec09}}){:target="_blank"}<br>[**Recording**]({{links.rec09}}){:target="_blank"} | Apr 2 | ==Assignment 2 Session==:<br>[**NeRF**]({{links.asgmt2}}){:target="_blank"}<br>[**Slides**]({{links.asgmt2_slides}}){:target="_blank"} | 
-| 7  | Apr 7  | **Gaussian Splatting**<br>[**Slides**]({{links.lec10}}){:target="_blank"}<br>[**Recording**]({{links.rec10}}){:target="_blank"} | Apr 9 | ==Midterm Summary== | 
-| 8  | Apr 14 | ==Midterm== | Apr 16 | No Class (Midterm Week) | 
-| 9  | Apr 21 | ==Guest Lecture 1:==<br>[**Jiahui Huang**](./guest-lecture-jiahui-huang){:target="_blank"}<br>[**Recording**]({{links.guest_rec01}}){:target="_blank"} | Apr 23 | ==Demo Session:==<br>[**NeRFStudio**]({{links.demo}}){:target="_blank"}<br>[**Slides**]({{links.demo_slides}}){:target="_blank"} | 
-| 10  | Apr 28 | ==Assignment 3 Session==:<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"}<br>[**Slides**]({{links.asgmt3_slides}}){:target="_blank"}<br>[**Slides**]({{links.asgmt3_slides}}){:target="_blank"} | Apr 30 | ==Guest Lecture 2:==<br>[**Songyou Peng**](./guest-lecture-songyou-peng){:target="_blank"}<br>[**Recording**]({{links.guest_rec02}}){:target="_blank"} | 
-| 11 | May 5 | No Class (Children’s Day) | May 7 | **Representation Conversion 1**<br>[**Slides**]({{links.lec11}}){:target="_blank"}<br>[**Recording**]({{links.rec11}}){:target="_blank"} | 
-| 12 | May 12 | **Representation Conversion 2**<br>[**Slides**]({{links.lec12}}){:target="_blank"}<br>[**Recording**]({{links.rec12}}){:target="_blank"} | May 14 |  No Class (Break) | 
-| 13 | May 20 | ==Guest Lecture 3<br>(Mar 20 (Tue) 4:00 p.m.):==<br>[**Matthias Nießner**](./guest-lecture-matthias-niessner){:target="_blank"}<br>[**Recording**]({{links.guest_rec03}}){:target="_blank"} | May 21 |  ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"}<br>[**Slides**]({{links.asgmt4_slides}}){:target="_blank"} | 
-| 14 | May 26 | **Mesh Deformation**<br>[**Slides**]({{links.lec13}}){:target="_blank"}<br>[**Recording**]({{links.rec13}}){:target="_blank"} | May 28 |  **3D Geneneration**<br>[**Slides**]({{links.lec14}}){:target="_blank"}<br>[**Recording**]({{links.rec14}}){:target="_blank"} | 
-| 15 | Jun 2 | ==Project Presentations 1== | Jun 4 |==Project Presentations 2== |
-| 16 | Jun 9 | No Class (Final Week) | Jun 11 | No Class (Final Week) |
+| 1  | Mar 2 | No Class (Substitute Holiday for<br>the Independence Movement Day) | Mar 4 | **Course Introduction** | 
+| 2  | Mar 9  | **3D Representations** | Mar 11 | **Point Clouds 1** | 
+| 3  | Mar 16 | **Point Clouds 2** | Mar 18 | ==Assignment 1 Session:==<br>[**PointNet**]({{links.asgmt1}}){:target="_blank"} | 
+| 4  | Mar 23 | **Implicit Neural Representations** | Mar 25 | **Image-to-3D 1:<br>Camera Model** | 
+| 5  | Mar 30 | **Image-to-3D 2:<br>Epipolar Geometry** | Apr 1 | **Neural Radiance Fields (NeRF)** | 
+| 6  | Apr 6 | **Hybrid Representations** | Apr 8 | ==Assignment 2 Session==:<br>[**NeRF**]({{links.asgmt2}}){:target="_blank"} | 
+| 7  | Apr 13 | **Gaussian Splatting 1**  | Apr 15 | ==Midterm Summary== | 
+| 8  | Apr 20 | ==Midterm Exam== | Apr 22 | No Class (Midterm Week) | 
+| 9  | Apr 27 | **Gaussian Splatting 2** | Apr 29 | ==Assignment 3 Session==:<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | 
+| 10  | May 4 | **Representation Conversion 1** | May 6 | No Class (Break) | 
+| 11 | May 11 | **Representation Conversion 2** | May 13 | ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"} | 
+| 12 | May 18 | **Mesh Deformation** | May 20 |  ==Guest Lecture 1== | 
+| 13 | May 26 | No Class (Substitute Holiday for<br>Buddha's Birthday) | May 27 | ==Guest Lecture 2==  | 
+| 14 | Jun 1 | **3D Geneneration** | Jun 3 | No Class (Local Elections)  | 
+| 15 | Jun 8 | ==Project Presentations 1== | Jun 10 |==Project Presentations 2== |
+| 16 | Jun 15 | ==Final Exam== | Jun 17 | No Class (Final Week) |
 
