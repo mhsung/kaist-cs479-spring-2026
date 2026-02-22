@@ -1,0 +1,40 @@
+site_name: CS.40709 Machine Learning for 3D Data (KAIST, Spring 2026)
+
+theme:
+  name: material
+  icon:
+    logo: material/cube-outline
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - meta
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - tables
+
+plugins:
+  - macros
+
+copyright: Copyright &copy; 2026 Minhyuk Sung
+
+nav:
+  - Home: index.md
+  - Programming Assignments: programming-assignments.md
+  - 3D Rendering Contest: 3d-rendering-contest.md
+
+extra:
+  analytics:
+    provider: google
+    property: G-0DGDW2727H
+  links:
