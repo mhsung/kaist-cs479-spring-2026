@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# [CS.40709] Machine Learning for 3D Data
+# CS479: Machine Learning for 3D Data
 
 <h3><b>
 <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2026
@@ -26,10 +26,10 @@ hide:
 
 ## Prerequisites
 ### Required
-- [CS.30701] Introduction to Deep Learning
+- [CS371] Introduction to Deep Learning
 ### Recommended
-- [CS.30800] Introduction to Computer Graphics
-- [CS.40804] Introduction to Computer Vision
+- [CS380] Introduction to Computer Graphics
+- [CS484] Introduction to Computer Vision
 
 
 ## Course Staff
