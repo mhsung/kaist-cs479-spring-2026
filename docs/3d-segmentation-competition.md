@@ -18,9 +18,9 @@ hide:
 
 
 ### What to Do
-In this competition, your task is to train a **3D point cloud object segmentation** model that goes beyond the previous assignment setups. We provide a dataset with **multiple types of input data**, and your goal is to design an architecture that can effectively leverage these inputs to achieve the best segmentation performance.
+In this competition, your task is to train a **3D object segmentation** model that goes beyond the previous assignment setups. We provide a dataset with **multiple types of input data**, and your goal is to design an architecture that can effectively leverage these inputs to achieve the best segmentation performance.
 
-We provide the dataset and the evaluation protocol, but the **model design is entirely up to you**. Your objective is to investigate and implement an architecture for 3D point cloud object segmentation that makes effective use of the provided input features/modalities.
+We provide the dataset and the evaluation protocol, but the **model design is entirely up to you**. Your objective is to investigate and implement an architecture for 3D object segmentation that makes effective use of the provided input features/modalities.
 
 You are encouraged to explore different design choices, including: 
 
