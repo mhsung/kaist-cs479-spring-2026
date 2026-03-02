@@ -47,7 +47,8 @@ We have a limited number of GPUs available in [KCLOUD](https://kcloud.kaist.ac.k
 [KCLOUD X11 Forwarding Instructions](https://docs.google.com/presentation/d/1yRmQRhrBIaKc9sjt_OCO3nnttANIQfDbyVwFWAt0ugY/edit?usp=sharing){:target="_blank" .md-button}
 
 ### ^^AI Coding Assistant Tool Policy^^
-**You are allowed (and even encouraged) to utilize AI coding assistant tools**, such as ChatGPT, Copilot, Codex, and Code Intelligence, for your programming assignments and projects. Utilizing AI coding assistant tools will not be deemed as plagiarism. However, it is still strictly prohibited to directly copy code from the Internet or from someone else. Doing so will lead to a score of zero and a report to the university.
+**You are allowed to use AI coding assistant tools** (e.g., Claude, Codex, Cursor, etc.) for your programming assignments and projects.
+Utilizing AI coding assistant tools will not be deemed as plagiarism. However, it is still strictly prohibited to directly copy code from the Internet or from someone else. Doing so will lead to a score of zero and a report to the university.
 
 ###Grading
 - Check out the submission guidelines and grading policy of each assignment in the respective GitHub repository.
