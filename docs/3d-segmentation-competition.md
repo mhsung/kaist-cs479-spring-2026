@@ -52,7 +52,10 @@ Check out the [Recommended Readings](#recommended-readings) section section, but
 
 You are required to use the **MultiScan** benchmark dataset for training and evaluation. 
 
-![Dataset](assets/multiscan.png)
+![Dataset](assets/multiscan.png){ width=97.5% }[^1]
+
+[^1]: Image from the MultiScan GitHub repository (https://github.com/smartscenes/multiscan).<br>
+
 
 Please follow the instructions in the original GitHub repository (see the **"Object Instance Segmentation"** section) and download the datasets from the link below:
 
