@@ -20,7 +20,7 @@ hide:
 ### What to Do
 In this competition, your task is to train a **3D object segmentation** model that goes beyond the previous assignment setups. We provide a dataset with **multiple types of input data**, and your goal is to design an architecture that can effectively leverage these inputs to achieve the best segmentation performance.
 
-We provide the dataset and the evaluation protocol, but the **model design is entirely up to you**. Your objective is to investigate and implement an architecture for 3D object segmentation that makes effective use of the provided input features/modalities.
+We provide the dataset and the evaluation protocol, but the **model design is entirely up to you**. Your objective is to investigate and implement a 3D object segmentation architecture that makes effective use of the provided input features/modalities.
 
 You are encouraged to explore different design choices, including: 
 
@@ -76,7 +76,7 @@ Please follow the instructions in the original GitHub repository (see the **"Obj
 
 - Additionally, to help everyone gauge progress, there will be a [Midterm Evaluation](#midterm-evaluation-submission-optional)  where teams can submit intermediate results. **Participation is optional**, but the top-k teams at each task in the midterm evaluation that also outperform the TAs’ scores will receive **bonus credit** toward the final grade. All submitted results will be shared anonymously with the class so that teams can see how others are performing.
 
-- **Final grading will be determined relative to the best score achieved for each task.** Specifically, the score for each task is calculated as follows:
+- **For each task, the final score will be determined relative to the highest score achieved for any team.** Specifically, the score for each task is calculated as follows:
 
     $$
     \mathrm{Score} = \cfrac{\mathrm{Your\,Score}}{\mathrm{Highest\,Score}} \times 8
