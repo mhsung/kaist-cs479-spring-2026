@@ -72,7 +72,7 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 - Assignment 2 Submission Due: ==April 28 (Tuesday), 23:59 KST==
 - Assignment 3 Submission Due: ==May 12 (Tuesday), 23:59 KST==
 - Assignment 4 Submission Due: ==May 26 (Tuesday), 23:59 KST==
-- 3D Segmentation Competition Midterm Submission Due: ==May 2 (Saturday), 23:59 KST==  
+- 3D Segmentation Competition Midterm Submission Due: ==Apr 30 (Thursday), 23:59 KST==  
 - 3D Segmentation Competition Final Submission Due: ==May 9 (Saturday), 23:59 KST==  
 - 3D Rendering Contest Submission Due: ==June 6 (Saturday), 23:59 KST==  
 

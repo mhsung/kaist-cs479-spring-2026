@@ -12,7 +12,7 @@ hide:
 
 ## 3D Segmentation Competition
 
-^^**Midterm Evaluation Submission Due**^^: ==May 2 (Saturday), 23:59 KST==  
+^^**Midterm Evaluation Submission Due**^^: ==Apr 30 (Thursday), 23:59 KST==  
 ^^**Final Submission Due**^^: ==May 9 (Saturday), 23:59 KST==  
 ^^**Where to submit**^^: ==KLMS==  
 
