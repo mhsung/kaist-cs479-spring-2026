@@ -1,0 +1,855 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../programming-assignments/">
+      
+      
+        <link rel="next" href="../3d-rendering-contest/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+    
+    
+      
+        <title>3D Segmentation Competition - CS479 Machine Learning for 3D Data (KAIST, Spring 2026)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-0DGDW2727H"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-0DGDW2727H",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-0DGDW2727H",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cs479-machine-learning-for-3d-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" class="md-header__button md-logo" aria-label="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CS479 Machine Learning for 3D Data (KAIST, Spring 2026)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3D Segmentation Competition
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../programming-assignments/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Programming Assignments
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  3D Segmentation Competition
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../3d-rendering-contest/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  3D Rendering Contest
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" class="md-nav__button md-logo" aria-label="CS479 Machine Learning for 3D Data (KAIST, Spring 2026)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+
+    </a>
+    CS479 Machine Learning for 3D Data (KAIST, Spring 2026)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../programming-assignments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programming Assignments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Segmentation Competition
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Segmentation Competition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3d-segmentation-competition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3D Segmentation Competition
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3D Segmentation Competition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-to-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Do
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dataset-and-base-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataset and Base Code
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#midterm-evaluation-submission-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Midterm Evaluation Submission (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Submission
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommended-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Readings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3d-rendering-contest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Rendering Contest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#3d-segmentation-competition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3D Segmentation Competition
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3D Segmentation Competition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-to-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Do
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dataset-and-base-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataset and Base Code
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#midterm-evaluation-submission-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Midterm Evaluation Submission (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Submission
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grading
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommended-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recommended Readings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="cs479-machine-learning-for-3d-data">CS479: Machine Learning for 3D Data</h1>
+<h3><b>
+<a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2026
+</b></h3>
+
+<h2 id="3d-segmentation-competition">3D Segmentation Competition</h2>
+<p><ins><strong>Midterm Evaluation Submission Due</strong></ins>: <mark>Apr 30 (Thursday), 23:59 KST</mark><br />
+<ins><strong>Final Submission Due</strong></ins>: <mark>May 9 (Saturday), 23:59 KST</mark><br />
+<ins><strong>Where to submit</strong></ins>: <mark>KLMS</mark>  </p>
+<h3 id="what-to-do">What to Do</h3>
+<p>In this competition, your task is to train a <strong>3D object segmentation</strong> model that goes beyond the previous assignment setups. We provide a dataset with <strong>multiple types of input data</strong>, and your goal is to design an architecture that can effectively leverage these inputs to achieve the best segmentation performance.</p>
+<p>We provide the dataset and the evaluation protocol, but the <strong>model design is entirely up to you</strong>. Your objective is to investigate and implement a 3D object segmentation architecture that makes effective use of the provided input features/modalities.</p>
+<p>You are encouraged to explore different design choices, including: </p>
+<ul>
+<li>point-based, voxel-based, or hybrid representations,</li>
+<li>feature fusion strategies for multiple input types,</li>
+<li>local and global context modeling, and</li>
+<li>efficient encoder-decoder designs for segmentation.</li>
+</ul>
+<p>Your models will be evaluated based on segmentation quality (e.g., the evaluation metrics specified below), and you are encouraged to carefully consider your architectural design choices.</p>
+<p>Check out the <a href="#recommended-readings">Recommended Readings</a> section section, but you are <em>not</em> limited to the architectures introduced there; they are provided only as references.</p>
+<p><strong><mark>Important Notes</mark></strong></p>
+<p><ins>PLEASE READ THE FOLLOWING CAREFULLY! Any violation of the rules or failure to properly cite existing code, models, or papers used in the project in your write-up will result in a zero score.</ins></p>
+<ul>
+<li><strong>DO NOT</strong> use any pretrained models.</li>
+<li><strong>DO NOT</strong> exceed a total of 100M model parameters.</li>
+<li><strong>DO NOT</strong> use any extra training data other than the provided training split.</li>
+<li><strong>DO NOT</strong> modify the provided evaluation script.</li>
+<li><strong>DO NOT</strong> use other CUDA version.</li>
+<li>Your code (training, post-processing, and evaluation) must run in the provided <strong>KCLOUD environment within 24 GB of GPU memory (VRAM)</strong>.</li>
+<li>You are allowed to use open-source implementations, as long as they are clearly mentioned and cited in your write-up.</li>
+</ul>
+<h3 id="dataset-and-base-code">Dataset and Base Code</h3>
+<p>You are required to use the <strong>MultiScan</strong> benchmark dataset for training and evaluation. </p>
+<p><img alt="Dataset" src="../assets/multiscan.png" width="97.5%" /><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>Please follow the instructions in the original GitHub repository (see the <strong>"Object Instance Segmentation"</strong> section) and download the datasets from the link below:</p>
+<p><a class="md-button" href="https://github.com/smartscenes/multiscan/blob/main/dataset/README.md" target="_blank">Repository</a></p>
+<p><strong>Please note that downloading the datasets may take some time, so we recommend preparing them as early as possible.</strong></p>
+<h3 id="evaluation">Evaluation</h3>
+<ul>
+<li>
+<p>We will evaluate 2 tasks: object semantic segmentation (50%) / object instance segmentation (50%). Our evaluation code will measure below metrics based on 17 object categories (<code>door</code>, <code>table</code>, <code>chair</code>, <code>cabinet</code>, <code>window</code>, <code>sofa</code>, <code>microwave</code>, <code>pillow</code>, <code>tv_monitor</code>, <code>curtain</code>, <code>trash_can</code>, <code>suitcase</code>, <code>sink</code>, <code>backpack</code>, <code>bed</code>, <code>refrigerator</code>, <code>toilet</code>), and for each task the score will be calculated as follows. Please see the details of evaluation code.</p>
+</li>
+<li>
+<p>Semantic Segmentation: <code>mean IoU</code> over categories.</p>
+</li>
+<li>
+<p>Instance Segmentation: <code>mean AP(0.8 * mAP(0.50:0.95) + 0.2 * mAP(0.25))</code> over categories.</p>
+</li>
+<li>
+<p>The TAs will provide scores computed using the implementation from the repository as reference values. You are expected to match or surpass these reference numbers.</p>
+</li>
+<li>
+<p>Additionally, to help everyone gauge progress, there will be a <a href="#midterm-evaluation-submission-optional">Midterm Evaluation</a>  where teams can submit intermediate results. <strong>Participation is optional</strong>, but the top-k teams at each task in the midterm evaluation that also outperform the TAs’ scores will receive <strong>bonus credit</strong> toward the final grade. All submitted results will be shared anonymously with the class so that teams can see how others are performing.</p>
+</li>
+<li>
+<p><strong>For each task, the final score will be determined relative to the highest score achieved for any team.</strong> Specifically, the score for each task is calculated as follows:</p>
+<div class="arithmatex">\[
+\mathrm{Score} = \cfrac{\mathrm{Your\,Score}}{\mathrm{Highest\,Score}} \times 8
+\]</div>
+<ul>
+<li>When Your Score = Highest Score, you get 8 points for that task.</li>
+</ul>
+</li>
+<li>
+<p>Bonus credits per task:</p>
+<ul>
+<li><strong>Midterm Evaluation Bonus</strong>: Every team that ties or outperforms the reference score on the midterm evaluation will receive +1.0 point (for that task).</li>
+<li><strong>Winner Bonus</strong>: If your team achieves the highest score for the Task, you receive +1.0 point (for that task).</li>
+</ul>
+</li>
+<li>
+<p>In total, the 3D segmentation competition is worth a maximum of 20 points.</p>
+</li>
+</ul>
+<h3 id="midterm-evaluation-submission-optional">Midterm Evaluation Submission (Optional)</h3>
+<p>The purpose of the midterm evaluation is to give all students a reference point for how other teams are progressing. <strong>Participation is optional</strong>, but the top-k teams at each task in the midterm evaluation that also outperform the reference scores will receive <strong>bonus credit</strong> toward the final grade.</p>
+<ul>
+<li><strong>What to submit</strong><ol>
+<li><strong>Self-contained source code</strong> <ul>
+<li>Your submission must include the complete codebase necessary to run end-to-end from the TAs' side.</li>
+<li>TAs will run your code in their environment without additional modifications.</li>
+<li>For consistent evaluation, the file <code>evaluation.py</code> will be replaced with the official version.</li>
+</ul>
+</li>
+<li><strong>A model checkpoint and config json file</strong>  </li>
+</ol>
+</li>
+<li><strong>Grading Procedure</strong><ul>
+<li>TAs will run your submitted code in their Python environment.</li>
+<li>The scores measured by TAs will be published on the leaderboard.</li>
+<li>Submissions that fail to run in the TA environment will be marked as failed on the leaderboard.</li>
+<li>Among the submissions exceeding the TAs' result, the top-k will earn bonus credit.  </li>
+</ul>
+</li>
+</ul>
+<h3 id="final-submission">Final Submission</h3>
+<ul>
+<li><strong>What to submit</strong>:<ol>
+<li><strong>Self-contained source code</strong> </li>
+<li><strong>A model checkpoint and config json file</strong>  </li>
+<li><strong>2-page write-up</strong>.<ul>
+<li>No template provided.  </li>
+<li>Maximum of two A4 pages, excluding references.  </li>
+<li>All of the following must be included:<ul>
+<li><strong>Technical details</strong>: One-paragraph description of the technical details of your implementation, including architecture design, hyper-parameters, etc.</li>
+<li><strong>Training details</strong>: Training logs (e.g., training loss curves), and total training time.</li>
+<li><strong>Qualitative evidence</strong>: ~4 sample rendered images with segmentation results.  </li>
+<li><strong>Citations</strong>: All external code, and papers used must be properly cited.</li>
+</ul>
+</li>
+<li><ins>Missing any of these items will result in a penalty.</ins></li>
+<li><ins>If the write-up exceeds two pages, any content beyond the second page will be ignored, which may lead to missing required items.</ins></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="grading">Grading</h3>
+<p><ins><strong>There is no late day. Submit on time.</strong></ins><br />
+<strong>Late submission</strong>: <mark>Zero score</mark>.<br />
+<strong>Missing any required item in the final submission (samples, code/model, write-up)</strong>: <mark>Zero score</mark>.<br />
+<strong>Missing items in the write-up</strong>: <mark>10% penalty for each</mark>.  </p>
+<h3 id="recommended-readings">Recommended Readings</h3>
+<p>[1]  <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/3b3a83a5d86e1d424daefed43d998079-Abstract-Conference.html" target="_blank">Mao et al., MultiScan: Scalable RGBD scanning for 3D environments with articulated objects, NeurIPS 2022.</a> <a href="https://github.com/smartscenes/multiscan" target="_blank">[Github]</a><a href="https://3dlg-hcvc.github.io/multiscan/read-the-docs/benchmark/dataset.html#object-instance-segmentation" target="_blank">[Benchmark Docs]</a><br />
+[2]  <a href="https://arxiv.org/abs/2310.02279" target="_blank">Jiang et al., PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation, CVPR 2020.</a><br />
+[3]  <a href="https://arxiv.org/abs/2209.03003" target="_blank">Liang et al., Instance Segmentation in 3D Scenes using Semantic Superpoint Tree Networks, ICCV 2021.</a><br />
+[4]  <a href="https://arxiv.org/abs/2410.12557" target="_blank">Chen et al., Hierarchical Aggregation for 3D Instance Segmentation, ICCV 2021.</a></p>
+<p><br /></p>
+<p><a href="#">Back to top</a>
+<br /></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Image from the MultiScan GitHub repository (https://github.com/smartscenes/multiscan).<br>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Minhyuk Sung
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
