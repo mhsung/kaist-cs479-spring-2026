@@ -82,7 +82,7 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 
 | Week | Mon | Topic | Wed | Topic |
 | :----: | :----: | :----: | :----: | :----: |
-| 1  | Mar 2 | No Class (Substitute Holiday for<br>the Independence Movement Day) | Mar 4 | **Course Introduction** | 
+| 1  | Mar 2 | No Class (Substitute Holiday for<br>the Independence Movement Day) | Mar 4 | **Course Introduction**<br>[**Slides**]({{links.lec01}}){:target="_blank"} | 
 | 2  | Mar 9  | **3D Representations** | Mar 11 | **Point Clouds 1** | 
 | 3  | Mar 16 | **Point Clouds 2** | Mar 18 | ==Assignment 1 Session:==<br>[**PointNet**]({{links.asgmt1}}){:target="_blank"} | 
 | 4  | Mar 23 | **Implicit Neural Representations** | Mar 25 | **Image-to-3D 1:<br>Camera Model** | 

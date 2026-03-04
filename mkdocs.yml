@@ -45,6 +45,7 @@ extra:
     provider: google
     property: G-0DGDW2727H
   links:
+    lec01: https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0lRQ2VxbUNrdVlmY1Q0d25weEdCb0FYNkFYUWZPMDExdng4X05xWG1INDhPcnB3P2U9UUdvdDUx&cid=60562023B6640282&id=60562023B6640282%21sa460aa9e87b94fdc8c27a71181a005fa&parId=60562023B6640282%21s09a74fd3aa1248158a75e9b0ae1dbf44&o=OneUp
     asgmt1: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-PointNet
     asgmt2: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-NeRF
     asgmt3: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-3DGS
