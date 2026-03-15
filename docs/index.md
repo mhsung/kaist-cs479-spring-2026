@@ -88,14 +88,14 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 | 4  | Mar 23 | **Implicit Neural Representations** | Mar 25 | **Image-to-3D 1:<br>Camera Model** | 
 | 5  | Mar 30 | **Image-to-3D 2:<br>Epipolar Geometry** | Apr 1 | **Neural Radiance Fields (NeRF)** | 
 | 6  | Apr 6 | **Hybrid Representations** | Apr 8 | ==Assignment 2 Session:==<br>[**NeRF**]({{links.asgmt2}}){:target="_blank"} | 
-| 7  | Apr 13 | **Gaussian Splatting 1**  | Apr 14 (Tue) | ==Guest Lecture 1<br>Apr 14 (Tue) 4:00 p.m.== | 
+| 7  | Apr 13 | ==**Guest Lecture 1**<br>Clément Jambon<br>Ph.D. Student at MIT==  | Apr 14 (Tue) | ==**Guest Lecture 2**<br>Qixing Huang<br>Associate Professor at UT Austin<br>Apr 14 (Tue) 4:00 p.m.== | 
 | 8  | Apr 20 | ==Midterm Exam== | Apr 22 | No Class (Midterm Week) | 
-| 9  | Apr 27 | **Gaussian Splatting 2** | Apr 29 | ==Assignment 3 Session:==<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | 
-| 10  | May 4 | **Representation Conversion 1** | May 6 | No Class (Break) | 
-| 11 | May 11 | **Representation Conversion 2** | May 13 | ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"} | 
-| 12 | May 18 | **Mesh Deformation** | May 20 |  ==Guest Lecture 2== | 
-| 13 | May 26 | No Class (Substitute Holiday for<br>Buddha's Birthday) | May 27 | ==Guest Lecture 3==  | 
-| 14 | Jun 1 | **3D Geneneration** | Jun 3 | No Class (Local Elections)  | 
+| 9  | Apr 27 | **Gaussian Splatting 1** | Apr 29 | ==Assignment 3 Session:==<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | 
+| 10  | May 4 | **Gaussian Splatting 2** | May 6 | No Class (Break) | 
+| 11 | May 11 | **Representation Conversion 1** | May 13 | ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"} | 
+| 12 | May 18 | **Representation Conversion 2** | May 20 | **Mesh Deformation** | 
+| 13 | May 26 | No Class (Substitute Holiday for<br>Buddha's Birthday) | May 27 | **3D Geneneration** | 
+| 14 | Jun 1 | ==Guest Lecture 3== | Jun 3 | No Class (Local Elections)  | 
 | 15 | Jun 8 | ==Project Presentations 1== | Jun 10 |==Project Presentations 2== |
 | 16 | Jun 15 | ==Final Exam== | Jun 17 | No Class (Final Week) |
 
