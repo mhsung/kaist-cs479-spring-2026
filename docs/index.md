@@ -94,8 +94,8 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 | 10  | May 4 | **Gaussian Splatting 2** | May 6 | No Class (Break) | 
 | 11 | May 11 | **Representation Conversion 1** | May 13 | ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"} | 
 | 12 | May 18 | **Representation Conversion 2** | May 20 | **Mesh Deformation** | 
-| 13 | May 26 | No Class (Substitute Holiday for<br>Buddha's Birthday) | May 27 | **3D Geneneration** | 
-| 14 | Jun 1 | ==Guest Lecture 3== | Jun 3 | No Class (Local Elections)  | 
+| 13 | May 26 | No Class (Substitute Holiday for<br>Buddha's Birthday) | May 27 | ==**Guest Lecture 3**<br>Seungchan Kim<br>Ph.D. Student at CMU== | 
+| 14 | Jun 1 | **3D Generation /<br>Course Wrap-Up** | Jun 3 | No Class (Local Elections)  | 
 | 15 | Jun 8 | ==Project Presentations 1== | Jun 10 |==Project Presentations 2== |
 | 16 | Jun 15 | ==Final Exam== | Jun 17 | No Class (Final Week) |
 
