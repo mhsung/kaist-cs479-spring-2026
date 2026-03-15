@@ -83,7 +83,7 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 | Week | Mon | Topic | Wed | Topic |
 | :----: | :----: | :----: | :----: | :----: |
 | 1  | Mar 2 | No Class (Substitute Holiday for<br>the Independence Movement Day) | Mar 4 | **Course Introduction**<br>[**Slides**]({{links.lec01}}){:target="_blank"} | 
-| 2  | Mar 9  | **3D Representations** | Mar 11 | **Point Clouds 1** | 
+| 2  | Mar 9  | **3D Representations**<br>[**Slides**]({{links.lec02}}){:target="_blank"}<br>[**Recording**]({{links.rec02}}){:target="_blank"} | Mar 11 | **Point Clouds 1**<br>[**Slides**]({{links.lec03}}){:target="_blank"}<br>[**Recording**]({{links.rec03}}){:target="_blank"} | 
 | 3  | Mar 16 | ==Assignment 1 Session:==<br>[**PointNet**]({{links.asgmt1}}){:target="_blank"} | Mar 18 | **Point Clouds 2** | 
 | 4  | Mar 23 | **Implicit Neural Representations** | Mar 25 | **Image-to-3D 1:<br>Camera Model** | 
 | 5  | Mar 30 | **Image-to-3D 2:<br>Epipolar Geometry** | Apr 1 | **Neural Radiance Fields (NeRF)** | 
