@@ -88,7 +88,7 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 | 4  | Mar 23 | **Implicit Neural Representations** | Mar 25 | **Image-to-3D 1:<br>Camera Model** | 
 | 5  | Mar 30 | **Image-to-3D 2:<br>Epipolar Geometry** | Apr 1 | **Neural Radiance Fields (NeRF)** | 
 | 6  | Apr 6 | **Hybrid Representations** | Apr 8 | ==Assignment 2 Session:==<br>[**NeRF**]({{links.asgmt2}}){:target="_blank"} | 
-| 7  | Apr 13 | ==**Guest Lecture 1**<br>Clément Jambon<br>Ph.D. Student at MIT==  | Apr 15 (Wed) | ==**Guest Lecture 2**<br>Qixing Huang<br>Associate Professor at UT Austin== | 
+| 7  | Apr 13 | ==**Guest Lecture 1**<br>Clément Jambon<br>Ph.D. Student at MIT==  | Apr 15 | ==**Guest Lecture 2**<br>Qixing Huang<br>Associate Professor at UT Austin== | 
 | 8  | Apr 20 | ==Midterm Exam== | Apr 22 | No Class (Midterm Week) | 
 | 9  | Apr 27 | **Gaussian Splatting 1** | Apr 29 | ==Assignment 3 Session:==<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | 
 | 10  | May 4 | **Gaussian Splatting 2** | May 6 | No Class (Break) | 
