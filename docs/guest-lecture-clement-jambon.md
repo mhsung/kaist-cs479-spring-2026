@@ -24,9 +24,8 @@ I will then shift focus to generative models. Despite impressive perceptual qual
 
 Finally, simulation has long relied on grid-based discretizations that require robust and expensive meshing. Recent grid-free Monte Carlo methods offer a compelling alternative but with weaker convergence guarantees. I will present a novel hybrid PDE solver that bridges these two paradigms while retaining the strengths of each.
 
-
 ### **Bio**
-Clément Jambon is a second-year Ph.D. student at MIT CSAIL where he works in the Algorithmic Design Group under the supervision of Mina Konaković Luković. He received an engineering degree from Ecole Polytechnique in Paris and an M.Sc. in Computer Science from ETH Zurich.  He gained research experience as a research intern at Inria, a research intern at NVIDIA Research, and a visiting student at the 3D Vision Lab of Seoul National University. He is currently a Siebel Scholar in the Class of 2026. His current research interests are physically-based simulation, generative modeling, Monte Carlo methods and PDEs.
+Clément Jambon is a second-year Ph.D. student at MIT CSAIL, where he works in the Algorithmic Design Group under the supervision of Mina Konaković Luković. He received an engineering degree from École Polytechnique in Paris and an M.Sc. in Computer Science from ETH Zurich. He gained research experience as a research intern at Inria, a research intern at NVIDIA Research, and a visiting student at the 3D Vision Lab of Seoul National University. He is currently a Siebel Scholar in the Class of 2026. His current research interests are physically-based simulation, generative modeling, Monte Carlo methods, and PDEs.
 
 
 <br />
