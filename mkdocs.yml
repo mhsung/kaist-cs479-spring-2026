@@ -39,6 +39,8 @@ nav:
   - Programming Assignments: programming-assignments.md
   - 3D Segmentation Competition: 3d-segmentation-competition.md
   - 3D Rendering Contest: 3d-rendering-contest.md
+  - Guest Lecture 1: guest-lecture-clement-jambon.md
+  - Guest Lecture 2: guest-lecture-qixing-huang.md
 
 extra:
   analytics:
@@ -50,10 +52,15 @@ extra:
     lec03: https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0lRQk9OU2R3dklDelFZZGNMY3hyTHRyR0FSWVRaWUs2czY5eHJFOGhWWmlBeXhNP2U9ZHRrNThJ&cid=60562023B6640282&id=60562023B6640282%21s7027354e80bc41b3875c2dcc6b2edac6&parId=60562023B6640282%21s09a74fd3aa1248158a75e9b0ae1dbf44&o=OneUp
     lec04: https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0lRQ05PZkp3UWlLYlJZWXA0N1R4alQxOEFlTURDZE5wZGluR2dOTGFnZUdPTDhFP2U9VWRNeGtW&cid=60562023B6640282&id=60562023B6640282%21s70f2398d2242459b8629e3b4f18d3d7c&parId=60562023B6640282%21s09a74fd3aa1248158a75e9b0ae1dbf44&o=OneUp
     lec05: https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0lRQ3dCQjROWGxnMVI2MTJ5Q21BTkRmbkFWTUZRNVJXdTgxazNKUkJuN0lsYXdVP2U9Tm9leUc5&cid=60562023B6640282&id=60562023B6640282%21s0d1e04b0585e4735ad76c829803437e7&parId=60562023B6640282%21s09a74fd3aa1248158a75e9b0ae1dbf44&o=OneUp
+    lec06: https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0lRQTkzX0FuZkZaWlQ1OXNuVmJFOUs4SEFjN1JGTzdqQUpxbTU2RUtPYTZaVURrP2U9ejZEcjUy&cid=60562023B6640282&id=60562023B6640282%21s27f0df3d567c4f599f6c9d56c4f4af07&parId=60562023B6640282%21s09a74fd3aa1248158a75e9b0ae1dbf44&o=OneUp
+    lec07: https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0lRRElyTXFTajVtNVFiM1ZhU0tONUN5S0FSQ3VPMHpkZjc1anFWeks4TTRsRU1VP2U9STlQbzd5&cid=60562023B6640282&id=60562023B6640282%21s92caacc8998f41b9bdd569228de42c8a&parId=60562023B6640282%21s09a74fd3aa1248158a75e9b0ae1dbf44&o=OneUp
+    lec08: https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0lRRHFYMi11LUJUalNJN2xzejVNMzhPOEFURDdveHlQMlRndkdpZWFscl9CQVhVP2U9OTV0WkNY&cid=60562023B6640282&id=60562023B6640282%21sae6f5fea14f848e38ee5b33e4cdfc3bc&parId=60562023B6640282%21s09a74fd3aa1248158a75e9b0ae1dbf44&o=OneUp
     rec02: https://youtu.be/7ZJ61x6kr-w
     rec03: https://youtu.be/sYcDL5W3MOI
     rec04: https://youtu.be/cwhjK5_rOwk
     rec05: https://youtu.be/4ISF9Iq28-c
+    rec06: https://youtu.be/eFYYOnD1gik
+    rec07: https://youtu.be/o-LZyVdzKLo
     asgmt1: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-PointNet
     asgmt2: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-NeRF
     asgmt3: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-3DGS
