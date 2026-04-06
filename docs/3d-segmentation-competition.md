@@ -9,7 +9,7 @@ hide:
 <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2026
 </b></h3>
 
-## 3D Point Cloud Segmentation Challenge
+## 3D Segmentation Competition
 
 ^^**Mid-Term Evaluation Submission Due**^^: ==April 30 (Sunday), 23:59 KST==  
 ^^**Final Submission Due**^^: ==May 9 (Saturday), 23:59 KST==  
