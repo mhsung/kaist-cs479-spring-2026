@@ -40,7 +40,7 @@ Also, check out the [Recommended Readings](#recommended-readings) section for re
 
 PLEASE READ THE FOLLOWING CAREFULLY! Any violation of the rules, or failure to properly cite any existing code, models, or papers used in the project write-up, will result in a zero score.
 
-### What You CANNOT Do
+### What you CANNOT do
 
 - ❌ **DO NOT** use any pretrained networks.
 - ❌ **DO NOT** exceed the total model parameter limit (50M).
@@ -50,7 +50,7 @@ PLEASE READ THE FOLLOWING CAREFULLY! Any violation of the rules, or failure to p
 - ❌ **DO NOT** exceed the main inference loop time limit (300 seconds).
 - ❌ **DO NOT** exceed the VRAM limit (24GB).
 
-### What You CAN Do
+### What you CAN do
 
 - ✅ **Modify `model.py`** to implement your own model.
 - ✅ **Implement your own dataset loader** based on the MultiScan dataset and the provided reference objects.
@@ -138,7 +138,7 @@ The purpose of the mid-term evaluation is to help teams gauge their progress. **
 | `F1@0.25` | 0.40 |
 | `F1@0.50` | 0.15 |
 
-- **What to submit**
+#### **What to submit**
   1. **Self-contained source code**
       - Your submission must include the complete codebase necessary to run end-to-end in the TA environment.
       - The TAs will run your code in their environment without additional modifications.
@@ -153,7 +153,7 @@ The purpose of the mid-term evaluation is to help teams gauge their progress. **
 
 ### Final Submission
 
-- **What to submit**:
+#### **What to submit**
   1. **Self-contained source code**
   2. **A model checkpoint** (optional config file allowed)
   3. **A 2-page write-up**
@@ -170,6 +170,7 @@ The purpose of the mid-term evaluation is to help teams gauge their progress. **
 ### Grading
 
 ^^**There are no late days. Submit on time.**^^  
+
 **Late submission**: ==Zero score==.  
 **Missing any required item in the final submission (qualitative results, code/checkpoint, or write-up)**: ==Zero score==.  
 **Missing items in the write-up**: ==10% penalty for each==. 
