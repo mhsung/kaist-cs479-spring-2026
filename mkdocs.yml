@@ -68,3 +68,5 @@ extra:
     asgmt3: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-3DGS
     asgmt4: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-MLS-MS
     demo: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-NeRF-Applications
+    seg_repo: https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-3DPC-Segmentation-Challenge
+    seg_data: https://drive.google.com/drive/folders/1guo68JlVkeqAzX7nR3DOfOB6SfhL3XC9?usp=sharing
