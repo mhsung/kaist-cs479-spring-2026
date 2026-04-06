@@ -86,8 +86,8 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 | 2  | Mar 9  | **3D Representations**<br>[**Slides**]({{links.lec02}}){:target="_blank"}<br>[**Recording**]({{links.rec02}}){:target="_blank"} | Mar 11 | **Point Clouds 1**<br>[**Slides**]({{links.lec03}}){:target="_blank"}<br>[**Recording**]({{links.rec03}}){:target="_blank"} | 
 | 3  | Mar 16 | ==Assignment 1 Session:==<br>[**PointNet**]({{links.asgmt1}}){:target="_blank"} | Mar 18 | **Point Clouds 2**<br>[**Slides**]({{links.lec04}}){:target="_blank"}<br>[**Recording**]({{links.rec04}}){:target="_blank"} | 
 | 4  | Mar 23 | **3D Rotations / Quaternions**<br>[**Slides**]({{links.lec05}}){:target="_blank"}<br>[**Recording**]({{links.rec05}}){:target="_blank"} | Mar 25 | **Implicit Neural Representations**<br>[**Slides**]({{links.lec06}}){:target="_blank"}<br>[**Recording**]({{links.rec06}}){:target="_blank"} | 
-| 5  | Mar 30 | **Camera Models**<br>[**Slides**]({{links.lec07}}){:target="_blank"}<br>[**Recording**]({{links.rec07}}){:target="_blank"} | Apr 1 | **Epipolar Geometry**<br>[**Slides**]({{links.lec08}}){:target="_blank"} | 
-| 6  | Apr 6 | **Neural Radiance Fields (NeRF)** | Apr 8 | ==Assignment 2 Session:==<br>[**NeRF**]({{links.asgmt2}}){:target="_blank"} | 
+| 5  | Mar 30 | **Camera Models**<br>[**Slides**]({{links.lec07}}){:target="_blank"}<br>[**Recording**]({{links.rec07}}){:target="_blank"} | Apr 1 | **Epipolar Geometry**<br>[**Slides**]({{links.lec08}}){:target="_blank"}<br>[**Recording**]({{links.rec08}}){:target="_blank"} | 
+| 6  | Apr 6 | **Neural Radiance Fields (NeRF)**<br>[**Slides**]({{links.lec09}}){:target="_blank"} | Apr 8 | ==Assignment 2 Session:==<br>[**NeRF**]({{links.asgmt2}}){:target="_blank"} | 
 | 7  | Apr 13 | ==**Guest Lecture 1**<br>[Clément Jambon](./guest-lecture-clement-jambon)<br>Ph.D. Student at MIT==  | Apr 15 | ==**Guest Lecture 2**<br>[Qixing Huang](./guest-lecture-qixing-huang)<br>Associate Professor at UT Austin== | 
 | 8  | Apr 20 | ==Midterm Exam== | Apr 22 | No Class (Midterm Week) | 
 | 9  | Apr 27 | **Gaussian Splatting 1** | Apr 29 | ==Assignment 3 Session:==<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | 
