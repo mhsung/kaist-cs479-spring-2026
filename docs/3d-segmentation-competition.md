@@ -11,11 +11,11 @@ hide:
 
 ## 3D Segmentation Competition
 
-^^**Mid-Term Evaluation Submission Due**^^: ==April 30 (Sunday), 23:59 KST==  
+^^**Mid-Term Evaluation Submission Due**^^: ==April 30 (Thursday), 23:59 KST==  
 ^^**Final Submission Due**^^: ==May 9 (Saturday), 23:59 KST==  
 ^^**Where to submit**^^: ==KLMS==  
 
-![Dataset](assets/nubjuki.png){ width=60% }
+![Dataset](assets/nubzuki.png){ width=60% }
 
 
 ## What to Do — Find Nubzukis!
@@ -63,9 +63,9 @@ PLEASE READ THE FOLLOWING CAREFULLY! Any violation of the rules, or failure to p
 ## MultiScan Dataset
 
 At test time, scenes from the [**MultiScan dataset**](https://3dlg-hcvc.github.io/multiscan/){:target="_blank"} with one or more inserted Nubzukis will be used.
-Although the test scenes will __not__ be provided, you may use the training data from MultiScan, and we also provide the Nubjuki 3D object file as a `.glb` file.
+Although the test scenes will __not__ be provided, you may use the training data from MultiScan, and we also provide the Nubzuki 3D object file as a `.glb` file.
 
-Download both the **Multiscan dataset** and the **Nubjuki** 3D object from the following link:
+Download both the **Multiscan dataset** and the **Nubzuki** 3D object from the following link:
 
 [Data Download Link]({{links.seg_data}}){:target="_blank" .md-button}
 
@@ -113,8 +113,7 @@ The F1 scores with two different thresholds, 0.25 and 0.50, must be reported: `F
 
 More details about the evaluation metric are provided in `evaluate.py`.
 
-- The TAs provide the reference scores computed using their own implementation as reference values. You are expected to match or exceed these reference values.
-- Additionally, to help everyone gauge progress, there will be a [Mid-Term Evaluation](#mid-term-evaluation-submission-optional) where teams can submit intermediate results.
+- To help everyone gauge progress, there will be a [Mid-Term Evaluation](#mid-term-evaluation-submission-optional) where teams can submit intermediate results.
 - **Final grading will be determined relative to the best score achieved for each metric (`F1@0.25` and `F1@0.50`).** Specifically, the score for each metric is computed as follows:
 
   $$
@@ -131,12 +130,7 @@ More details about the evaluation metric are provided in `evaluate.py`.
 
 ## Mid-Term Evaluation Submission (Optional)
 
-The purpose of the mid-term evaluation is to help teams gauge their progress. **Participation is optional**, but the top-k teams for each metric that outperform the TAs’ scores will receive bonus credit toward the final grade.
-
-| Metric | TA Score |
-|---|---:|
-| `F1@0.25` | 0.40 |
-| `F1@0.50` | 0.15 |
+The purpose of the mid-term evaluation is to help teams gauge their progress. **Participation is optional**, but the top-k teams for each metric will receive bonus credit toward the final grade.
 
 #### **What to submit**
   1. **Self-contained source code**
