@@ -15,6 +15,7 @@ hide:
 ^^**Midterm**^^: ==April 20 (Monday), 1:30 p.m. – 2:50 p.m. (KST)==   
 ^^**Final**^^: ==June 15 (Monday), 1:30 p.m. – 2:50 p.m. (KST)==  
 **Location**: ==E3-5 Building, Room 210==
+
 The test will start at 1:30 p.m. sharp. **Please come to the classroom by 1:20 p.m.**<br>
 
 
