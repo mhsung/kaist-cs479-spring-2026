@@ -123,8 +123,8 @@ More details about the evaluation metric are provided in `evaluate.py`.
 - If your score equals the highest score, you receive 8 points for that metric.
 
 - Bonus credits for each metric:
-    - **Mid-Term Evaluation Bonus**: Every team that outperforms the TA’s score in the mid-term evaluation receives +1.0 point for that metric.
-    - **Winner Bonus**: If your team achieves the highest score for a metric, you receive +1.0 point for that metric.
+    - **Mid-Term Evaluation Bonus**: Top-k teams for each metric in the mid-term evaluation receive +1.0 point for that metric.
+    - **Winner Bonus**: If your team achieves the highest score for each metric, you receive +1.0 point for that metric.
 
 - In total, the 3D Point Cloud Segmentation Challenge is worth a maximum of 20 points.
 
