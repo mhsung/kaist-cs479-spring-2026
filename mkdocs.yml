@@ -37,6 +37,7 @@ copyright: Copyright &copy; 2026 Minhyuk Sung
 nav:
   - Home: index.md
   - Programming Assignments: programming-assignments.md
+  - Exams: exams.md
   - 3D Segmentation Competition: 3d-segmentation-competition.md
   - 3D Rendering Contest: 3d-rendering-contest.md
   - Guest Lecture 1: guest-lecture-clement-jambon.md
