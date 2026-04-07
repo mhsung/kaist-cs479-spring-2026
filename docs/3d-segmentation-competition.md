@@ -145,7 +145,7 @@ The purpose of the mid-term evaluation is to help teams gauge their progress. **
   - Submissions that fail to run in the TA environment will be marked as failed on the leaderboard.
   - Among the submissions that outperform the TAs’ scores, the top-k teams will receive bonus credit.
 
-### Final Submission
+## Final Submission
 
 #### **What to submit**
   1. **Self-contained source code**
