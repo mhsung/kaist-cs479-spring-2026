@@ -48,7 +48,7 @@ PLEASE READ THE FOLLOWING CAREFULLY! Any violation of the rules, or failure to p
 - ❌ **DO NOT** modify the provided `evaluate.py` for the official submission.
 - ❌ **DO NOT** use any CUDA version other than the provided one (default: 12.4).
 - ❌ **DO NOT** exceed the main inference loop time limit (300 seconds).
-- ❌ **DO NOT** exceed the VRAM limit (24GB).
+- ❌ **DO NOT** exceed the VRAM limit (20GB).
 
 ### What you CAN do
 
