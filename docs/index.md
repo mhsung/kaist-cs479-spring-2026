@@ -70,8 +70,8 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 - Assignment 1 Submission Due: ==March 31 (Tuesday), 23:59 KST==   
 - Team Sign-Up Due: ==April 1 (Wednesday), 23:59 KST== 
 - Assignment 2 Submission Due: ==April 28 (Tuesday), 23:59 KST==
-- Assignment 3 Submission Due: ==May 12 (Tuesday), 23:59 KST==
-- Assignment 4 Submission Due: ==May 26 (Tuesday), 23:59 KST==
+- Assignment 3 Submission Due: ==May 17 (Sunday), 23:59 KST==
+- Assignment 4 Submission Due: ==May 31 (Sunday), 23:59 KST==
 - 3D Segmentation Competition Midterm Submission Due: ==Apr 30 (Thursday), 23:59 KST==  
 - 3D Segmentation Competition Final Submission Due: ==May 9 (Saturday), 23:59 KST==  
 - 3D Rendering Contest Submission Due: ==June 6 (Saturday), 23:59 KST==  
@@ -90,10 +90,10 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 | 6  | Apr 6 | **Neural Radiance Fields (NeRF)**<br>[**Slides**]({{links.lec09}}){:target="_blank"} | Apr 8 | ==Assignment 2 Session:==<br>[**NeRF**]({{links.asgmt2}}){:target="_blank"} | 
 | 7  | Apr 13 | ==**Guest Lecture 1**<br>[Clément Jambon](./guest-lecture-clement-jambon)<br>Ph.D. Student at MIT==  | Apr 15 | ==**Guest Lecture 2**<br>[Qixing Huang](./guest-lecture-qixing-huang)<br>Associate Professor at UT Austin== | 
 | 8  | Apr 20 | ==Midterm Exam== | Apr 22 | No Class (Midterm Week) | 
-| 9  | Apr 27 | **Gaussian Splatting 1** | Apr 29 | ==Assignment 3 Session:==<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | 
-| 10  | May 4 | **Gaussian Splatting 2** | May 6 | No Class (Break) | 
-| 11 | May 11 | **Representation Conversion 1** | May 13 | ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"} | 
-| 12 | May 18 | **Representation Conversion 2** | May 20 | **Mesh Deformation** | 
+| 9  | Apr 27 | **Gaussian Splatting 1** | Apr 29 | **Gaussian Splatting 2** | 
+| 10 | May 4 | ==Assignment 3 Session:==<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | May 6 | No Class (Break) | 
+| 11 | May 11 | **Representation Conversion 1** | May 13 | **Representation Conversion 2** | 
+| 12 | May 18 | ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"} | May 20 | **Mesh Deformation** | 
 | 13 | May 26 | No Class (Substitute Holiday for<br>Buddha's Birthday) | May 27 | ==**Guest Lecture 3**<br>Seungchan Kim<br>Ph.D. Student at CMU== | 
 | 14 | Jun 1 | **3D Generation /<br>Course Wrap-Up** | Jun 3 | No Class (Local Elections)  | 
 | 15 | Jun 8 | ==Project Presentations 1== | Jun 10 |==Project Presentations 2== |
