@@ -90,7 +90,7 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 | 6  | Apr 6 | **Neural Radiance Fields (NeRF)**<br>[**Slides**]({{links.lec09}}){:target="_blank"} | Apr 8 | ==Assignment 2 Session:==<br>[**NeRF**]({{links.asgmt2}}){:target="_blank"} | 
 | 7  | Apr 13 | ==**Guest Lecture 1**<br>[Clément Jambon](./guest-lecture-clement-jambon)<br>Ph.D. Student at MIT==  | Apr 15 | ==**Guest Lecture 2**<br>[Qixing Huang](./guest-lecture-qixing-huang)<br>Associate Professor at UT Austin== | 
 | 8  | Apr 20 | ==Midterm Exam== | Apr 22 | No Class (Midterm Week) | 
-| 9  | Apr 27 | **Gaussian Splatting 1** | Apr 29 | **Gaussian Splatting 2** | 
+| 9  | Apr 27 | **Hybrid Representations**<br>[**Slides**]({{links.lec10}}){:target="_blank"} | Apr 29 | **Gaussian Splatting** | 
 | 10 | May 4 | ==Assignment 3 Session:==<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | May 6 | No Class (Break) | 
 | 11 | May 11 | **Representation Conversion 1** | May 13 | **Representation Conversion 2** | 
 | 12 | May 18 | ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"} | May 20 | **Mesh Deformation** | 
