@@ -113,53 +113,54 @@ The F1 scores with two different thresholds, 0.25 and 0.50, must be reported: `F
 
 More details about the evaluation metric are provided in `evaluate.py`.
 
-- To help everyone gauge progress, there will be a [Mid-Term Evaluation](#mid-term-evaluation-submission-optional) where teams can submit intermediate results.
-- **Final grading will be determined relative to the best score achieved for each metric (`F1@0.25` and `F1@0.50`).** Specifically, the score for each metric is computed as follows:
+To help everyone gauge progress, there will be a [Mid-Term Evaluation](#mid-term-evaluation-submission-optional) where teams can submit intermediate results.  
+**Final grading will be determined relative to the best score achieved for each metric (`F1@0.25` and `F1@0.50`).** Specifically, the score for each metric is computed as follows:
 
-  $$
-  \mathrm{Score} = \max\left(\cfrac{\mathrm{Your\,Score}}{\mathrm{Highest\,Score}} \times 8, 0\right)
-  $$
+$$
+\mathrm{Score} = \max\left(\cfrac{\mathrm{Your\,Score}}{\mathrm{Highest\,Score}} \times 8, 0\right)
+$$
 
-- If your score equals the highest score, you receive 8 points for that metric.
+If your score equals the highest score, you receive 8 points for that metric.
 
-- Bonus credits for each metric:
-    - **Mid-Term Evaluation Bonus**: Top-k teams for each metric in the mid-term evaluation receive +1.0 point for that metric.
-    - **Winner Bonus**: If your team achieves the highest score for each metric, you receive +1.0 point for that metric.
+Bonus credits for each metric:  
+- **Mid-Term Evaluation Bonus**: Top-k teams for each metric in the mid-term evaluation receive +1.0 point for that metric.
+- **Winner Bonus**: If your team achieves the highest score for each metric, you receive +1.0 point for that metric.
 
-- In total, the 3D Point Cloud Segmentation Challenge is worth a maximum of 20 points.
+In total, the 3D Point Cloud Segmentation Challenge is worth a maximum of 20 points.
 
 ## Mid-Term Evaluation Submission (Optional)
 
 The purpose of the mid-term evaluation is to help teams gauge their progress. **Participation is optional**, but the top-k teams for each metric will receive bonus credit toward the final grade.
 
 #### **What to submit**
-  1. **Self-contained source code**
-      - Your submission must include the complete codebase necessary to run end-to-end in the TA environment.
-      - The TAs will run your code in their environment without additional modifications.
-      - For consistent evaluation, `evaluate.py` will be replaced with the official version during grading.
-  2. **A model checkpoint** (and an optional config file)
+1. **Self-contained source code**
+    - Your submission must include the complete codebase necessary to run end-to-end in the TA environment.
+    - The TAs will run your code in their environment without additional modifications.
+    - For consistent evaluation, `evaluate.py` will be replaced with the official version during grading.
+2. **A model checkpoint** (and an optional config file)
 
-- **Grading Procedure**
-  - The TAs will run your submitted code in their Python environment.
-  - The scores measured by the TAs will be published on the leaderboard.
-  - Submissions that fail to run in the TA environment will be marked as failed on the leaderboard.
-  - Among the submissions that outperform the TAs’ scores, the top-k teams will receive bonus credit.
+#### **Grading Procedure**  
+- The TAs will run your submitted code in their Python environment.
+- The scores measured by the TAs will be published on the leaderboard.
+- Submissions that fail to run in the TA environment will be marked as failed on the leaderboard.
+- Among the submissions that outperform the TAs’ scores, the top-k teams will receive bonus credit.
 
 ## Final Submission
 
 #### **What to submit**
-  1. **Self-contained source code**
-  2. **A model checkpoint** (optional config file allowed)
-  3. **A 2-page write-up**
-      - No template is provided.
-      - The write-up must be at most two A4 pages, excluding references.
-      - All of the following must be included:
-          - **Technical details**: A one-paragraph description of your implementation, including the architecture design, hyperparameters, and other relevant details.
-          - **Training details**: Training logs (e.g., training loss curves) and the total training time.
-          - **Qualitative evidence**: At least four rendered sample images with segmentation results.
-          - **Citations**: All external code and papers used must be properly cited.
-      - ^^Missing any of these items will result in a penalty.^^
-      - ^^If the write-up exceeds two pages, any content beyond page 2 will be ignored, which may cause required items to be missing.^^
+1. **Self-contained source code**
+2. **A model checkpoint** (optional config file allowed)
+3. **A 2-page write-up**
+    - No template is provided.
+    - The write-up must be at most two A4 pages, excluding references.
+    - All of the following must be included:
+        - **Technical details**: A one-paragraph description of your implementation, including the architecture design, hyperparameters, and other relevant details.
+        - **Training details**: Training logs (e.g., training loss curves) and the total training time.
+        - **Qualitative evidence**: At least four rendered sample images with segmentation results.
+        - **Citations**: All external code and papers used must be properly cited.
+
+^^Missing any of these items will result in a penalty.^^  
+^^If the write-up exceeds two pages, any content beyond page 2 will be ignored, which may cause required items to be missing.^^
 
 ### Grading
 
