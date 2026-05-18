@@ -24,7 +24,7 @@ We begin with the robotics motivation: how semantic 3D understanding enables rea
 We close with an outlook on open problems: how 3D representations might serve as intermediate layers in end-to-end robotic pipelines, what world models could offer in extending 3D representations beyond static observations, and where manipulation fits into this picture — a domain where the role of 3D remains an open and exciting question.
 
 ### **Bio**
-Seungchan Kim is a Ph.D. Candidate in Robotics at Carnegie Mellon University, advised by Professor Sebastian Scherer. He received his Bachelor of Science in Applied Mathematics & Computer Science, and Master of Science in Computer Science, from Brown University. His research focuses on spatial reasoning and semantic representations for mobile robot autonomy. His work has appeared in venues such as ICRA, IROS, RSS, RA-L, TRO, CVPR, and ECCV.
+Seungchan Kim is a Ph.D. Candidate in Robotics at Carnegie Mellon University, advised by Professor Sebastian Scherer. He received his Bachelor of Science in Applied Mathematics & Computer Science, and Master of Science in Computer Science from Brown University. His research focuses on spatial reasoning and semantic representations for mobile robot autonomy. His work has appeared in venues such as ICRA, IROS, RSS, RA-L, TRO, CVPR, and ECCV.
 <br />
 <br />
 
