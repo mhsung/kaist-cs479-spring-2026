@@ -6,10 +6,9 @@ hide:
 
 # [Seungchan Kim](https://seungchan-kim.github.io/){:target="_blank"}
 ## 3D Representations for Robotics: Geometry, Efficiency, and Semantics  
-### Ph.D. candidate at Carnegie Mellon University<br>May 27, 2026 (Wed), 1:00 p.m. KST<br>Zoom.
+### Ph.D. candidate at Carnegie Mellon University<br>May 27, 2026 (Wed), 1:00 p.m. KST<br>
 
-
-[Zoom Link](https://kaist.zoom.us/j/81229648666){:target="_blank" .md-button}
+[Recording]({{links.rec_guest_3}}){:target="_blank" .md-button}
 
 ### <b>Guest Lecture at [CS479: Machine Learning for 3D Data](../){:target="_blank"}<br>[Minhyuk Sung](http://mhsung.github.io/){:target="_blank"}, [KAIST](https://www.kaist.ac.kr/){:target="_blank"}, Spring 2026</b>
 

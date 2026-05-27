@@ -94,7 +94,7 @@ ALL ASSIGNMENTS ARE DUE 23:59 KST.
 | 10 | May 4 | ==Assignment 3 Session:==<br>[**Gaussian Splatting**]({{links.asgmt3}}){:target="_blank"} | May 6 | No Class (Break) | 
 | 11 | May 11 | **Representation Conversion 1**<br>[**Slides**]({{links.lec12}}){:target="_blank"}<br>[**Recording**]({{links.rec12}}){:target="_blank"} | May 13 | **Representation Conversion 2**<br>[**Slides**]({{links.lec13}}){:target="_blank"}<br>[**Recording**]({{links.rec13}}){:target="_blank"} | 
 | 12 | May 18 | ==Assignment 4 Session:==<br>[**Marching Squares**]({{links.asgmt4}}){:target="_blank"} | May 20 | **Mesh Deformation**<br>[**Slides**]({{links.lec14}}){:target="_blank"}<br>[**Recording**]({{links.rec14}}){:target="_blank"} | 
-| 13 | May 26 | No Class (Substitute Holiday for<br>Buddha's Birthday) | May 27 | ==**Guest Lecture 3**<br>[Seungchan Kim](./guest-lecture-seungchan-kim)<br>Ph.D. Student at CMU== | 
+| 13 | May 26 | No Class (Substitute Holiday for<br>Buddha's Birthday) | May 27 | ==**Guest Lecture 3**<br>[Seungchan Kim](./guest-lecture-seungchan-kim)<br>Ph.D. Student at CMU==<br>[**Recording**]({{links.rec_guest_3}}){:target="_blank"} | 
 | 14 | Jun 1 | **3D Generation /<br>Course Wrap-Up** | Jun 3 | No Class (Local Elections)  | 
 | 15 | Jun 8 | ==Project Presentations 1== | Jun 10 |==Project Presentations 2== |
 | 16 | Jun 15 | ==Final Exam== | Jun 17 | No Class (Final Week) |
