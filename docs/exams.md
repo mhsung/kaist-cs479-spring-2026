@@ -20,7 +20,7 @@ The test will start at 1:30 p.m. sharp. **Please come to the classroom by 1:20 p
 
 
 ### Problems
-You'll have **80 minutes** to solve **5 problems**, each worth between **10 points**.<br>
+You'll have ~~80 minutes~~ **100 minutes** to solve **5 problems**, each worth between **10 points**.<br>
 It is recommended that you review the entire exam before beginning.
 
 
