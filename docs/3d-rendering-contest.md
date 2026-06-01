@@ -114,7 +114,7 @@ Each individual will assign a Technology Score and Creativity Score to the resul
 
 - **Find your poster BEFORE the sessions**, and also check whether your camera and mic work, and you can share your screen.
 
-- Check your presentation date below. You will play a role of a **presenter** in one session and a **questioner** in the other session.
+- You will play a role of a **presenter** in one session and a **questioner** in the other session. **Odd** number teams will present on **Monday**, and **even** number teams will present on **Wednesday**.
 
 - Each session will begin with a **1-minute pitch** from the presenters. When it's your turn, please follow these steps:
     - Introduce yourself (just your name).
